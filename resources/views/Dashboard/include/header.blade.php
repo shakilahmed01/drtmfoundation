@@ -33,7 +33,9 @@
                 </div>
                 <div class="col-lg-3 d-none d-md-block col-md-6 btn-bhed">
                     <button class="btn btn-sm btn-success">Join Us</button>
+                    <a href="{{route('donate')}}">
                     <button class="btn btn-sm btn-default">Donate</button>
+                  </a>
                 </div>
             </div>
         </div>
@@ -42,7 +44,7 @@
         <div class="container">
             <div class="row nav-row">
                 <div class="col-lg-3 col-md-12 logo">
-                    <a href="index.html">
+                    <a href="{{route('index')}}">
                         <img src="{{asset('Dashboard/assets/images/logo5.png')}}" alt="">
                         <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
                     </a>

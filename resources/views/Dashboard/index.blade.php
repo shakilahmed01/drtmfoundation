@@ -165,7 +165,9 @@
 
                         <p class="raises"><span>Raised : $34,425</span> / $500,000 </p>
                         <p class="desic">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's </p>
+                        <a href="{{route('donate')}}">
                         <button class="btn btn-success btn-sm">Donate Now</button>
+                      </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -174,7 +176,9 @@
                         <h4>Child Education in Africa</h4>
                         <p class="raises"><span>Raised : $34,425</span> / $500,000 </p>
                         <p class="desic">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's </p>
+                        <a href="{{route('donate')}}">
                         <button class="btn btn-success btn-sm">Donate Now</button>
+                      </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -183,7 +187,9 @@
                         <h4>Child Education in Africa</h4>
                         <p class="raises"><span>Raised : $34,425</span> / $500,000 </p>
                         <p class="desic">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's </p>
+                        <a href="{{route('donate')}}">
                         <button class="btn btn-success btn-sm">Donate Now</button>
+                      </a>
                     </div>
                 </div>
             </div>

@@ -46,7 +46,7 @@
 
 
           </div>
-            <div class="donate-link col-md-3"><a href="donate.html" class="btn btn-primary "><span class="btn-title">Donate Now</span></a></div>
+            <div class="donate-link col-md-3"><a href="{{route('donate')}}" class="btn btn-primary "><span class="btn-title">Donate Now</span></a></div>
       </div>
 
   </div>
