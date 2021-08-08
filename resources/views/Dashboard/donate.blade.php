@@ -27,9 +27,7 @@
     <button class="btn btn-primary" id="btn-submit" type="submit" >Submit</button>
   </div>
 </form>
-<a href="{{route('view_donate')}}">
-<button class="btn btn-success btn-sm" type="submit" >Click here for Donate Now</button>
-</a>
+
 <br>
 <br>
 

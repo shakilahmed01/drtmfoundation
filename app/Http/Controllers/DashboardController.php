@@ -73,7 +73,8 @@ class DashboardController extends Controller
 
             ]);
 
-            return back();
+            
+            return redirect('/view/donate');
     }
 
     function view_donate(){
