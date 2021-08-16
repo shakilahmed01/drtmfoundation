@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.carousel-cell {
+  width: 70%;
+  margin-right: 25px;
+  border: 2px solid black;
+}
+
+.crousel-cell:before {
+  display: block;
+}
+
+/* .container{
+    width: 100%;
+    height: 100vh;
+    background-coolor: black;
+    display:flex;
+    justify-content:center;
+    align-item: center;
+
+} */
+
+/* image slider */
+
+/* external css: flickity.css */
+
+body {
+  font-family: sans-serif;
+  display: flex;
+}
+
+.carousel_imageslider {
+  background: #ffffff;
+
+  /* margin: 30px; */
+}
+
+.carousel-cell_imageslider {
+  width: 25%;
+  height: 200px;
+  margin-right: 80px;
+  background: #e6f1f7;
+  border: 1px solid grey;
+  border-radius: 0px;
+}
+
+.carousel-cell_imageslider-image {
+  display: block;
+  max-height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+/* fade in lazy loaded image */
+.carousel-cell_imageslider-image.flickity-lazyloaded,
+.carousel-cell_imageslider-image.flickity-lazyerror {
+  opacity: 1;
+}
+
+.row_name {
+  margin: 20px;
+  padding: 20px;
+  font-weight: 500;
+}
+
+.app_download_banner {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 100%;
+  height: auto;
+
+  /* box-shadow: 20px 20px 10px #dfdfdf; */
+  margin: 100px;
+}
+
+.select_your_area {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* customer review css */
+/* 
+.rev-section {
+  margin: auto;
+  padding: 0 1rem;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.note {
+  font-size: 1.1rem;
+  color: grey;
+  font-style: italic;
+}
+
+.reviews {
+  margin: 2rem auto;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.review {
+  margin: 0 1rem;
+  min-width: 300px;
+  flex: 1;
+}
+
+.head-review {
+  margin: 1.75rem auto;
+  width: 150px;
+  height: 150px;
+}
+.reviewer-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.body-review {
+  background-color: rgba(238, 238, 238);
+  padding: 2.5rem;
+  box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+}
+
+.name-review {
+  font-size: 1.5rem;
+  color: rgb(50, 50, 50);
+  margin-bottom: 0.25rem;
+}
+
+.place-review {
+  color: red;
+  font-style: italic;
+}
+
+.rating {
+  color: rgb(253, 180, 42);
+  margin: 1rem 0;
+}
+
+.desc-review {
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  color: rgb(150, 150, 150);
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.rev-section {
+  margin: auto;
+  padding: 0 1rem;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: rgb(50, 50, 50);
+  margin-bottom: 0.5rem;
+}
+.note {
+  font-size: 1.1rem;
+  color: rgb(150, 150, 150);
+  font-style: italic;
+  color: red;
+}
+
+.reviews {
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.review {
+  margin: 0 1rem;
+  min-width: 300px;
+  flex: 1;
+}
+
+.head-review {
+  margin: 1.75rem auto;
+  width: 150px;
+  height: 150px;
+}
+.reviewer-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.body-review {
+  background-color: rgb(238, 238, 238);
+  padding: 2.5rem;
+  box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+}
+.name-review {
+  font-size: 1.5rem;
+  color: rgb(50, 50, 50);
+  margin-bottom: 0.25rem;
+}
+.place-review {
+  color: red;
+  font-style: italic;
+}
+.rating {
+  color: rgb(253, 180, 42);
+  margin: 1rem 0;
+}
+.desc-review {
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  color: rgb(150, 150, 150);
+}
+
+@media (max-width: 678px) {
+  .review {
+    margin-top: 1.5rem;
+  }
+}
+
+.select_area_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.select_area_bar {
+  height: 40px;
+  width: 450px;
+  border: 3px solid #809fbf;
+  border-radius: 15px;
+  text-decoration: none;
+  outline: none;
+}

@@ -13,10 +13,10 @@
     @csrf
   <div class="row">
     <div class="col-auto">
-      <input type="text" class="form-control" name="first_name" placeholder="First name">
+      <input type="text" class="form-control @error('first_name') is-invalid @enderror" name="first_name" required autocomplete="first_name" autofocus placeholder="First Name">
     </div>
     <div class="col-auto">
-      <input type="text" class="form-control" name="last_name" placeholder="Last name">
+      <input type="text" class="form-control @error('last_name') is-invalid @enderror" name="last_name" required autocomplete="last_name" autofocus placeholder="Last Name">
     </div>
     <div class="col-auto">
       <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="email">
